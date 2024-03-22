@@ -1,4 +1,4 @@
-# PuIPWOPI
+# PuIPWOPI - Public IP for WOPI
 ## Description
 This script looks for the actual public IP address and add this IP to the WOPI configuration of Nextcloud.
 It uses the OpenSource Projekt https://ipify.org to gather the public IP.
