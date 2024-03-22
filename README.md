@@ -3,6 +3,8 @@
 This script looks for the actual public IP address and add this IP to the WOPI configuration of Nextcloud.
 It uses the OpenSource Projekt https://ipify.org to gather the public IP.
 
+It is helpful to use for a Collaboration Server next to Nextcloud from home.
+
 ## Usage
 Download or Copy the script into an editor and save it.
 Use chmod +x to make it executable.
