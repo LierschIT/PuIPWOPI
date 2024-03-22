@@ -6,9 +6,9 @@
 ip=""
 ip=$(curl -s https://api.ipify.org)
 
-if [$ip != ""]
+if [ -n "${ip}" ]
 then
-    sudo -u www-data php occ config:app:set richdocuments wopi_allowlist --value=$ip
+    sudo -u www-data php occ config:app:set richdocuments wopi_allowlist --value="${ip}"
 else
-    echo "Public IP can't be optained. Update of WOPI not possible.
+    echo "Public IP can't be optained. Update of WOPI not possible."
 fi
